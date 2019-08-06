@@ -1,0 +1,17 @@
+{
+    "name": "locust/test",
+    "type": "library",
+    "license":"MIT",
+    "authors": [
+        {
+            "name": "locust",
+            "email": "2533937699@qq.com"
+        }
+    ],
+    "require": {},
+    "autoload":{
+    	"psr-4":{
+    		"algorithm\\": "src/Algorithm"
+    	}
+    }
+}
